@@ -1,0 +1,19 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "mini-project about linked lists usage for methodologies of computer engineering lab 2",
+  "main": "CircularSinglyLinkedList.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namanica/linked-lists.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namanica/linked-lists/issues"
+  },
+  "homepage": "https://github.com/namanica/linked-lists#readme"
+}
