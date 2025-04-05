@@ -4,7 +4,7 @@
   "description": "mini-project about linked lists usage for methodologies of computer engineering lab 2",
   "main": "CircularSinglyLinkedList.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
