@@ -134,11 +134,12 @@ class CircularSinglyLinkedList {
   }
 
   reverse() {
-    if (!this.tail || this.size === 1) return "Nothing to reverse";
+    if (!this.tail || this.size <= 1) return "Nothing to reverse";
 
+    let head = this.tail.next;
     let prev = this.tail;
-    let current = this.tail.next;
-    let next;
+    let current = head;
+    let next = null;
 
     for (let i = 0; i < this.size; i++) {
       next = current.next;
@@ -147,7 +148,7 @@ class CircularSinglyLinkedList {
       current = next;
     }
 
-    this.tail = this.tail.next;
+    this.tail = head;
   }
 
   findFirst(value) {

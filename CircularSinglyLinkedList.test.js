@@ -126,6 +126,14 @@ describe("CircularSinglyLinkedList", () => {
     expect(list.get(2)).toBe("a");
   });
 
+  test("reverse method returns a message when there is nothing to reverse in the list", () => {
+    let result = list.reverse();
+    expect(result).toBe("Nothing to reverse");
+    list.append("a");
+    result = list.reverse();
+    expect(result).toBe("Nothing to reverse");
+  });
+
   test("findFirst and findLast methods return correct indices on provided values", () => {
     list.append("a");
     list.append("b");
