@@ -4,7 +4,7 @@
   "description": "mini-project about linked lists usage for methodologies of computer engineering lab 2",
   "main": "CircularSinglyLinkedList.js",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/namanica/linked-lists/issues"
   },
-  "homepage": "https://github.com/namanica/linked-lists#readme"
+  "homepage": "https://github.com/namanica/linked-lists#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

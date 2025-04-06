@@ -196,3 +196,5 @@ class CircularSinglyLinkedList {
     }
   }
 }
+
+module.exports = CircularSinglyLinkedList;
